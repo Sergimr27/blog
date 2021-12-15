@@ -123,6 +123,11 @@ header {
     padding: 0.75%;
 }
 
+footer {
+    background-color: rgb(200, 40, 90);
+    color: white;
+}
+
 @media only screen and (max-width: 800px) {
     /*reglas*/
     /* column-3 pasará de tener 33.33% a 100% */
@@ -132,8 +137,5 @@ header {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
-    }
-    #caja-10 {
-        width: 100%;
     }
 }
