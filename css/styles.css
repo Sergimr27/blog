@@ -1,142 +1,166 @@
-html {
-    font-size: 16px;
-}
-
-
-/* Redimensión de fuente utilizando rem */
-
-p {
-    font-size: 1rem;
-}
-
-
-/* rem: a partir de la regla dice que vale lo mismo el doble o el triple */
-
-h1 {
-    font-size: 3rem;
-    margin: 0%;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-
-/* clases predefinidas */
-
-* {
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-}
-
-body {
-    margin: 0;
-    background-color: blueviolet;
-}
-
-
-/* Clear floats after the columns */
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Diseño de columnas */
-
-.column-1 {
-    width: 100%;
-    float: left;
-}
-
-.column-2 {
-    width: 50%;
-    float: left;
-}
-
-.column-3 {
-    width: 33.33%;
-    float: left;
-}
-
-.column-4 {
-    width: 25%;
-    float: left;
-}
-
-.column-5 {
-    width: 20%;
-    float: left;
-}
-
-.column-6 {
-    width: 16.66%;
-    float: left;
-}
-
-
-/* Otras clases */
-
-header {
-    height: 100vh;
-    background-image: url("../img/mick-haupt-p7N4GuhFqdU-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#card-1 {
-    background-image: url("../img/kobby-mendez-KnS_sC1nqpM-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: cover;
-}
-
-#card-2 {
-    background-image: url("../img/ruben-leija-_svFC8uJ1KA-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: cover;
-}
-
-#card-3 {
-    background-image: url("../img/sven-kucinic-Z0KjmjxUsKs-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: cover;
-}
-
-#card-4 {
-    background-image: url("../img/alex-azabache-1cPWeb3Ud30-unsplash.jpg");
-    height: 60vh;
-    background-size: cover;
-    background-position: cover;
-}
-
-.padding-s {
-    padding: 0.75%;
-}
-
-footer {
-    background-color: rgb(200, 40, 90);
-    color: white;
-}
-
-@media only screen and (max-width: 800px) {
-    /*reglas*/
-    /* column-3 pasará de tener 33.33% a 100% */
-    .column-3 {
-        width: 100%;
-    }
-    /* column-4 pasará de tener 25% a 50% */
-    .column-4 {
-        width: 50%;
-    }
-}
+   html {
+       font-size: 16px;
+   }
+   /* Redimensión de fuente utilizando rem */
+   
+   p {
+       font-size: 1rem;
+   }
+   /* rem: a partir de la regla dice que vale lo mismo el doble o el triple */
+   
+   h1 {
+       font-size: 3rem;
+       margin: 0%;
+   }
+   
+   h3 {
+       font-size: 2rem;
+   }
+   /* clases predefinidas */
+   
+   * {
+       box-sizing: border-box;
+       font-family: 'Quicksand', sans-serif;
+   }
+   
+   body {
+       margin: 0;
+       background-color: white;
+   }
+   /* Clear floats after the columns */
+   
+   .row:after {
+       content: "";
+       display: table;
+       clear: both;
+   }
+   /* Diseño de columnas */
+   
+   .column-1 {
+       width: 100%;
+       float: left;
+   }
+   
+   .column-2 {
+       width: 50%;
+       float: left;
+   }
+   
+   .column-3 {
+       width: 33.33%;
+       float: left;
+   }
+   
+   .column-4 {
+       width: 25%;
+       float: left;
+   }
+   
+   .column-5 {
+       width: 20%;
+       float: left;
+   }
+   
+   .column-6 {
+       width: 16.66%;
+       float: left;
+   }
+   /* Otras clases */
+   
+   header {
+       height: 100vh;
+       background-image: url("../img/mick-haupt-p7N4GuhFqdU-unsplash.jpg");
+       background-size: cover;
+       background-position: center;
+   }
+   
+   .flex {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   #card-1 {
+       background-image: url("../img/kobby-mendez-KnS_sC1nqpM-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   #card-2 {
+       background-image: url("../img/ruben-leija-_svFC8uJ1KA-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   #card-3 {
+       background-image: url("../img/sven-kucinic-Z0KjmjxUsKs-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   #card-4 {
+       background-image: url("../img/fran-jacquier-to2bO8Gktkk-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   #card-5 {
+       background-image: url("../img/alex-azabache-1cPWeb3Ud30-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   #card-6 {
+       background-image: url("../img/andy-holmes-lj8e0MEpmbM-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   #card-7 {
+       background-image: url("../img/andy-holmes-rdXSpVhuFXw-unsplash.jpg");
+       height: 60vh;
+       background-size: cover;
+       background-position: cover;
+   }
+   
+   footer {
+       width: 100%;
+       text-align: left;
+       float: left;
+       font-size: 1.5vw;
+       color: white;
+       background-color: black;
+   }
+   
+   #prefooter {
+       background-color: darkgray;
+       color: white;
+   }
+   
+   .padding-s {
+       padding: 1%;
+   }
+   
+   .padding-xs {
+       padding: 0%;
+   }
+   
+   .rownavidad {
+       background-color: gray;
+       height: 60vh;
+   }
+   
+   @media only screen and (max-width: 800px) {
+       /*reglas*/
+       /* column-3 pasará de tener 33.33% a 100% */
+       .column-3 {
+           width: 100%;
+       }
+       /* column-4 pasará de tener 25% a 50% */
+   }
